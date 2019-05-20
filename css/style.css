@@ -9557,7 +9557,7 @@ h1, h2, h3, h4, h5,
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: #fff !important;
     position: relative;
     top: 0;
     padding-top: 0;
@@ -9572,30 +9572,11 @@ h1, h2, h3, h4, h5,
   padding: 0;
 }
 .ftco-navbar-light .navbar-brand {
-  color: #000000;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
 }
-.ftco-navbar-light .navbar-brand span {
-  color: #A62424;
-  background: #A62424;
-  background: -moz-linear-gradient(-45deg, #A62424 0%, #A62424 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #A62424), color-stop(100%, #F23838));
-  background: -webkit-linear-gradient(-45deg, #A62424 0%, #F23838 100%);
-  background: -o-linear-gradient(-45deg, #A62424 0%, #F23838 100%);
-  background: -ms-linear-gradient(-45deg, #A62424 0%, #F23838 100%);
-  background: linear-gradient(135deg, #A62424 0%, #F23838 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="$primary", endColorstr="$secondary", GradientType=1 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
-  color: #000000 !important;
-}
-@media (max-width: 991.98px) {
-  .ftco-navbar-light .navbar-brand {
-    color: #fff;
-  }
+.ftco-navbar-light .navbar-brand img {
+  height: 70px;
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav {
@@ -9657,11 +9638,11 @@ h1, h2, h3, h4, h5,
     padding-right: 0;
     padding-bottom: 1rem;
     padding-top: 0;
-    color: #fff;
+    color: #000000;
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
-  color: #fff;
+  color: #000000;
   border: 1px solid #A62424;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
@@ -9676,7 +9657,7 @@ h1, h2, h3, h4, h5,
 }
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a span {
   display: inline-block;
-  color: #fff;
+  color: #000000;
 }
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a:hover {
   background: #A62424;
@@ -9703,7 +9684,7 @@ h1, h2, h3, h4, h5,
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(0, 0, 0, 0.5) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;

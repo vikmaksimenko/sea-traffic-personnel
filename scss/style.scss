@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5,
 	z-index: 3;
 	// padding-top: 30px;
 	@include media-breakpoint-down(md) {
-		background: $black!important;
+		background: $white!important;
 		position: relative;
 		top: 0;
 		padding-top: 0;
@@ -102,20 +102,10 @@ h1, h2, h3, h4, h5,
 	}
 
 	.navbar-brand {
-		color: $black;
 		padding-top: .7rem;
 		padding-bottom: .7rem;
-		span{
-			color: $primary;
-			@include gradient-background();
-			-webkit-background-clip: text;
-		  -webkit-text-fill-color: transparent;
-		}
-		&:hover, &:focus{
-			color: $black !important;
-		}
-		@include media-breakpoint-down(md){
-			color: $white;
+		img {
+    		height: 70px;	
 		}
 	}
 	
@@ -180,13 +170,13 @@ h1, h2, h3, h4, h5,
 					padding-right: 0;
 					padding-bottom: 1rem;
 					padding-top: 0;
-					color: $white;
+					color: $black;
 				}
 			}
 			
 			&.cta {
 				> a {
-					color: $white;
+					color: $black;
 					border: 1px solid $primary;
 					padding-top: .7rem;
 					padding-bottom: .7rem;
@@ -197,7 +187,7 @@ h1, h2, h3, h4, h5,
 					@include border-radius(5px);
 					span {
 						display: inline-block;
-						color: $white;
+						color: $black;
 					}
 					&:hover{
 						background: $primary;
@@ -238,7 +228,7 @@ h1, h2, h3, h4, h5,
 	}
 	.navbar-toggler {
 		border: none;
-		color: rgba(255,255,255,.5)!important;
+		color: rgba(0, 0, 0, 0.5) !important;
 		cursor: pointer;
 		padding-right: 0;
 		text-transform: uppercase;
